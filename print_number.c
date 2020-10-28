@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * print_num - prints numbers to stdout
+ * print_number - prints numbers to stdout
  * @list: va_list we need to step through
  * Return: count of each number and signs printed
  */

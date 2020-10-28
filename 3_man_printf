@@ -1,8 +1,8 @@
 .\" Manpage for our _Printf project at Holberton School
 .TH man 3 "10-27-2020" "Printf Manual"
 .SH NAME
-.my_printf
-.my_printf - This function prints output according to a format
+._printf
+\_printf - This function prints output according to a format
 .SH SYNOPSIS
 
 #include "holberton.h"
@@ -15,7 +15,7 @@ _printf[ARGUMENTS]...
 Printf is a function that points to a character, each call points to the format control string, which specifies the output format, the string is made up of conversion specifiers, with the percent sign (%) gets an output format that prints numerical or ASCII chars from the specifiers that get passed on to the argument.
 
 this version of
-my_printf.c
+_printf.c
 containts our own printf function, which is the main function
 
 Return:
