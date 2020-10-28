@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * print_non - prints any character after '%'
+ * print_after - prints any character after '%'
  * if it does NOT match anyting in our struct
  * @ch1: this will always be our '%' sign
  * @ch2: the character that will succeed our first char
