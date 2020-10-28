@@ -15,10 +15,10 @@ _printf[ARGUMENTS]...
 Printf is a function that points to a character, each call points to the format control string, which specifies the output format, the string is made up of conversion specifiers, with the percent sign (%) gets an output format that prints numerical or ASCII chars from the specifiers that get passed on to the argument.
 
 this version of
-_printf.c
+.B _printf.c
 containts our own printf main function
 
-Return:
+.B Return:
 the number of chars printed excluding null byte
 .TP
 Conversion specifiers: There are several different conversion specifiers that are used for different data types such as..
