@@ -16,7 +16,7 @@ Printf is a function that points to a character, each call points to the format 
 
 this version of
 _printf.c
-containts our own printf function, which is the main function
+containts our own printf main function
 
 Return:
 the number of chars printed excluding null byte
@@ -40,7 +40,7 @@ Conversion specifiers: There are several different conversion specifiers that ar
 .TP
 Conversion specifiers begin with a percent sign (%) and end with the characters shown in the EXAMPLE below
 
->SH EXAMPLE
+.SH EXAMPLE
 
 _printf("Character: %c", char);
 
@@ -48,6 +48,10 @@ _printf("String: %s", string);
 .TP
 _printf(Integer: %d", integer), ("Integer: %i, integer);
 (usage of %d and %i depend on specific case, see above description)
+.SH SEE ALSO
+
+printf(1), _printf(2), printf(3), sprintf(), snprintf(), vsprintf(), vsnprintf().
+.SH BUGS
 
 for bugs email 1924@holbertonschool.com Damon Ray
 
